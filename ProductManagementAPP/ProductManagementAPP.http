@@ -1,0 +1,6 @@
+@ProductManagementAPP_HostAddress = http://localhost:5119
+
+GET {{ProductManagementAPP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
