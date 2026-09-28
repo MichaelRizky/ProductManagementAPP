@@ -484,6 +484,11 @@ $RECYCLE.BIN/
 # SQLite
 *.db
 *.db-journal
+*.db-shm
+*.db-wal
+
+# NLog
+logs/
 *.sqlite
 *.sqlite3
 
