@@ -76,6 +76,11 @@ ProductManagementAPP/
    ```bash
    dotnet ef database update
    ```
+   > **Note:** If you encounter an error stating that the `dotnet ef` command is not found (especially on a new PC), you need to install the Entity Framework Core CLI tools first by running:
+   > ```bash
+   > dotnet tool install --global dotnet-ef
+   > ```
+
 5. **Run the application:**
    ```bash
    dotnet run
